@@ -1,31 +1,11 @@
 {
   "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
-  "tag": "test",
-  "affiliates":["wnow,FranklyDemo"],
+  "tag": "heba",
+  "affiliates":["wnow"],
   "propTypes": {
-    "title": "PropTypes.string",
-    "layout": "PropTypes.string"
+    "text": "PropTypes.string"
   },
   "defaultProps": {
-    "title": "Test uniqueness",
-    "titleColor": "#000",
-    "backgroundColor": "white",
-    "layout": "hero",
-    "numberOfItems": 6,
-    "textColor": "black",
-    "heroImageBackgroundColor": "#2980b9",
-    "thumbnailAlignment": "left"
-  },
-  "propChoices": {
-    "layout": [
-      "hero",
-      "list"
-    ]
-  },
-  "FRN_resourceEndpoints": [
-    {
-      "url": "",
-      "type": "json"
-    }
-  ]
+    "text": "Welcome to the demo of Frankly Cross Modules!!-copied from matt :D"
+  }
 }
