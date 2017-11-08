@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import ModuleDemo from 'franklyinc/FranklyModulesDemo';
+import ModuleDemo from 'qafrankly/Child-11';
 
 class ModuleCrossDemo extends Component {
 
