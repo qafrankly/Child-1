@@ -1,7 +1,7 @@
 {
   "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/05/OOjs_UI_icon_advanced.svg",
   "tag": "heba",
-  "affiliates":["franklydemo"],
+  "affiliates":["wnow"],
   "propTypes": {
     "text": "PropTypes.string"
   },
