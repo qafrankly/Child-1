@@ -1,25 +1,18 @@
 import React, { Component, PropTypes } from 'react';
+import ModuleDemo from 'franklyinc/FranklyModulesDemo';
 
-class RandomTest extends Component {
-  static PropTypes = {
-    h1: PropTypes.string,
-    h2: PropTypes.string,
-  }
+class ModuleCrossDemo extends Component {
+
   render(){
-    let {
-      h2 = 'QA testing here',
-    } = this.props;
-
-    let {
-      flux, config
-    } = this.context;
-
+	  
     return (
-      <div>
-        <h2>{h2}</h2>
+      <div className='FranklyModulesCrossDemo'>
+	    This is a child "ModuleDemo" component:<br/>
+	    <ModuleDemo text="test"></ModuleDemo>
       </div>
     );
+	  
   }
 }
 
-export default RandomTest;
+export default ModuleCrossDemo;
